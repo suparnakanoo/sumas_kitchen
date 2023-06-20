@@ -1,0 +1,68 @@
+
+body{
+    /* background-image: url("calum-lewis-vA1L1jRTM70-unsplash.jpg"); */
+    /* background-position: top center;
+    background-size: cover;
+    background-repeat: repeat-y; */
+    background: linear-gradient(to right,#5e3023,#dab49d);
+}
+.header h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;
+    text-shadow: 8px 1px 1px black;
+}
+nav{
+    background:linear-gradient(to right,rgb(71 45 45),#b08968);    
+}
+nav a{
+    color: white;
+    
+}
+nav a:hover{
+    color:#7f5539;
+    text-decoration: none;
+}
+nav.navbar.sticky-top {
+    padding: 10px 109px;
+}
+#socials{
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 102px;
+}
+.gmail{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.fb{
+    
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.yt{
+   
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+img{
+    height: 10rem;
+    padding: 0.8rem;
+
+}
+#socials div:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+#socials div a{
+    text-decoration: none;
+}
